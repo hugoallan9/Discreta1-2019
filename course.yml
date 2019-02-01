@@ -1,0 +1,75 @@
+chunks:
+
+-
+    title: "M303 - Matemática Discreta"
+    id: welcome
+    rules:
+    -
+        if_after: end_week 3
+        if_before: 2038-01-01 13:00:00 -5
+        weight: 100
+
+    -
+        weight: 0
+
+    content: |
+
+
+
+        # M303 - Matemática Discreta
+
+        <img src="repo:images/Boole.jpg" width = "40%" height = "40%">
+
+        ## Generalidades del curso
+        El curso M303 - Matemática Discreta se imparte los días Lunes, Martes, Jueves y Viernes
+        
+        **Horario:** 8:00 a 8:50
+        
+        **Lugar:** Edificio T-3 salón 401
+
+
+
+        Puedes descargar el programa del curso [acá](repocur:pdfs/m303-P2019.pdf)
+
+        Toma en cuenta que debes cumplir con las [reglas del curso](staticpage:reglas)
+
+
+-
+    title: "Tareas"
+    id: tarea
+    rules:
+    -
+        if_after: 2019-02-04 13:00:00 -5
+        if_before: 2038-01-01 13:00:00 -5
+        weight: 100
+        shown: True
+
+    -
+        weight: 0
+        shown: False
+
+    content: |
+
+        ## Tareas
+
+        
+
+-
+    title: "Exam pointer"
+
+    id: exam_pointer
+    rules:
+    -
+        if_in_facility: test_center
+        if_after: 2015-06-01
+        weight: 200
+
+    -
+        shown: False
+        weight: 0
+
+    content: |
+
+        # Welcome to the computer-based testing facility!
+
+        <a href="flow:exam-1" class="btn btn-default">Start exam &raquo;</a>
