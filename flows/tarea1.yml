@@ -3,15 +3,15 @@ description: |
 
     # Tarea 1
 
-    Bienvenido al curso de Taller de matemática 2, en esta sección encontrarás los ejercicios que debes resolver para
-    tu tarea. 
+    Bienvenido al curso de Matemática Discreta, en esta sección encontrarás los ejercicios que debes resolver para
+    tu tarea.
 
 rules:
     start:
     -
         if_before: Tarea 1
         if_has_role: [student, ta, instructor]
-        if_has_fewer_sessions_than: 5
+        if_has_fewer_sessions_than: 1
         may_start_new_session: True
         may_list_existing_sessions: True
 
@@ -26,7 +26,7 @@ rules:
          message: "Bienvenido, tu tarea 1 está lista."
 
      -
-         permissions: [view, modify, see_correctness, see_answer_after_submission]
+         permissions: [view, see_correctness, see_answer_after_submission]
 
     grade_identifier: tarea1
     grade_aggregation_strategy: max_grade
@@ -37,7 +37,7 @@ rules:
         credit_percent: 100
 
     -
-        if_completed_before: 2018-08-15
+        if_completed_before: 2019-03-15
         credit_percent: 50
 
     -
@@ -45,7 +45,7 @@ rules:
 groups:
 -
     id: intro
-    pages: 
+    pages:
     -
         type: FileUploadQuestion
         id: proof
@@ -55,12 +55,20 @@ groups:
 
             # Tarea 1
 
-            Debe realizar los ejercicios del texto *Problem-Solving strategies* de Arthur Engel. 
+            Ejercicios a realizar del libro Matemáticas Discretas y Combinatoria de Ralph Grimaldi (3era edición)
 
-            | Página        | Ejercicios     |
-            | ------------- |:-------------|
-            | 254      |    1,2,3,5,7,9 |
-            | 255      | 12,13,21,22,26,29,31      |
+|  Página | Ejercicio |
+|---|---|
+|  95 | 5 -11  |
+|  251 |  7, 13, 15,16  |
+|  259 | 16,20   |
+
+Ejercicios a realizar del libro Discrete Mathematics de Kenneth Ross y Charles Wright  (2da edición)
+
+|  Página | Ejercicio |
+|---|---|
+|  262 | 1, 4, 8, 12, 19  |
+|  272 - 273 |  6, 9, 15, 17, 20, 21  |
 
         mime_types:
 
@@ -70,8 +78,7 @@ groups:
 
             Para obtener la calificación completa deberá cumplir:
 
-            * Usar los temas vistos en clase para la solución (20%)
-            * Uso de LaTeX (30%)
-            * Correcta argumentación (30%)
-            * No tener errores en la argumentación de un problema elegido al azar (10%)
+            * Uso de LaTeX (20%)
+            * Ejercicios completos (40%)
+            * No tener errores en la argumentación de un problema elegido al azar (50%)
 
