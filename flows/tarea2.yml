@@ -22,7 +22,7 @@ rules:
     access:
      -
          if_before: Tarea 2
-         permissions: [view, modify, see_correctness, submit_answers]
+         permissions: [view, modify, see_correctness]
          message: "Bienvenido, tu tarea 2 está lista."
 
      -
