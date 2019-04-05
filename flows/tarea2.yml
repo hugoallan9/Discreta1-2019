@@ -42,6 +42,8 @@ rules:
 
     -
         credit_percent: 0
+
+
 groups:
 -
     id: intro
@@ -49,8 +51,8 @@ groups:
     -
         type: FileUploadQuestion
         id: proof
+        maximum_megabytes: 8
         value: 2.5
-        maximum_megabytes: 5
         prompt: |
 
             # Tarea 2
@@ -64,16 +66,13 @@ groups:
             | 131   |  3.23, 3.25, 3.30  |
             | 148 | 4.2, 4.6, 4.9, 4.10, 4.15, 4.17, 4.24, 4.27, 4.29, 4.30 |
             | 175  | 5.2, 5.5, 5.7, 5.9, 5.17, 5.18 |
-
         mime_types:
 
-            - application/pdf
+                - application/pdf
 
         rubric: |
-
             Para obtener la calificación completa deberá cumplir:
-
-            * Uso de LaTeX (20%)
-            * Ejercicios completos (40%)
-            * No tener errores en la argumentación de un problema elegido al azar (50%)
-
+            * Usar los temas vistos en clase para la solución (20%)
+            * Uso de LaTeX (30%)
+            * Correcta argumentación (30%)
+            * No tener errores en la argumentación de un problema elegido al azar (10%)
