@@ -21,7 +21,7 @@ rules:
 
     access:
      -
-         if_before: Tarea 1
+         if_before: Tarea 2
          permissions: [view, modify, see_correctness]
          message: "Bienvenido, tu tarea 2 está lista."
 
