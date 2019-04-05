@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930e7d1d-e19a-466b-9ca5-26b2ffe01d6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/course.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flows/tarea2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/flows/tarea2.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
               <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flows/tarea2.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -40,6 +49,7 @@
       <list>
         <option value="$PROJECT_DIR$/flows/tarea1.yml" />
         <option value="$PROJECT_DIR$/course.yml" />
+        <option value="$PROJECT_DIR$/flows/tarea2.yml" />
       </list>
     </option>
   </component>
@@ -60,6 +70,11 @@
             <path>
               <item name="Discreta1_2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="Discreta1_2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Discreta1_2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Discreta1_2019" type="462c0819:PsiDirectoryNode" />
+              <item name="flows" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,6 +147,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1105">
           <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flows/tarea2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
         </state>
       </provider>
     </entry>
